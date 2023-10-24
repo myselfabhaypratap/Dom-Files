@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>DOM OnClick</title>
+    </head>
+
+    <body>
+
+        <button onclick="changeh1value()">Click Me</button>
+        <h1 id="text">This is JavaScript onclick Event</h1>
+
+    </body>
+</html>
+
+
+<script>
+
+    function changeh1value()
+    {
+        var x=document.getElementById('text')
+        x.innerHTML='the button is clicked'
+        x.style.color='brown'
+    }
+</script>
